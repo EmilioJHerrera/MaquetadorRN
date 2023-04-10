@@ -1,0 +1,24 @@
+$color_link: #B0B4B3;
+
+.linkHeader_container{
+    padding: 1rem 0;
+    text-align: left;
+
+}
+
+.link_icon{
+    font-size: 0.8rem;
+    display: inline;
+    list-style-type: none;
+    border-right: 1px solid $color_link;
+    color:  $color_link;
+    padding: 0.5rem 1rem;
+
+    p{
+        display: inline;
+        padding: 0.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+}

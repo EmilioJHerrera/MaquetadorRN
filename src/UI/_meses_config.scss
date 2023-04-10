@@ -1,0 +1,18 @@
+$color_setting:#1677AB;
+$color_text_setting:#A1A5A4;
+
+
+.meses_config_container{
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid $color_text_setting;
+    
+    p:last-child{
+        text-transform: capitalize;
+        color: $color_text_setting;   
+    }
+    
+}
+.color-tuerca{
+    color: $color_setting;
+}

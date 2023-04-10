@@ -1,0 +1,36 @@
+$color_export_link: #1677AB;
+
+
+.barraSubtiem_container{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid brown;
+    
+    div{
+            
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+.barraSubitem_texto{
+    font-style: italic;
+}
+
+.texto_bold{
+    font-weight: bold;
+}
+
+.export_link{
+    
+    display: flex;
+    color: $color_export_link;
+    font-weight: bold;
+    span{
+        
+        text-align: left;
+        text-decoration: underline;
+    }
+}

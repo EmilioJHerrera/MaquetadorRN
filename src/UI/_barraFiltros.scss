@@ -1,0 +1,80 @@
+$bg_barraFiltros: #E7E6E3;
+$media_900: 900px;
+
+.barraFiltros{
+    display: flex;
+    background-color: $bg_barraFiltros;
+    padding: 1rem;
+
+
+    @media(max-width: $media_900){
+       
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+    
+    
+    span{
+        
+        padding: 1rem;
+        border-right: 3px solid $bg;
+        font-weight: bold;
+
+
+        @media(max-width: $media_900){
+       
+        
+            border: none;
+    
+            
+        }
+    }
+
+    span:last-child{
+        border: none;
+    }
+
+
+
+    ul{
+        display: inline;
+        padding: 1rem;
+        font-size: 0.6rem;
+        li{
+            display: inline;
+            background-color: $bg;
+            margin: 0.2rem;
+            padding: 0.5rem;
+            text-transform: uppercase;
+        }
+
+
+    }
+
+    .input-wrapper {
+        position: relative;
+        width: 8rem;
+      }
+
+      .input {
+        color: #191919;
+        width: 100%;
+        padding: 0.5rem 1.5rem;
+    }
+    
+    .input-icon {
+          
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 4px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+}

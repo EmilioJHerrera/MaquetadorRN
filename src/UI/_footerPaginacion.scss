@@ -1,0 +1,22 @@
+$color_notificacion_pendiente:#FF612C;
+$color_notificacion_espera: #FFAA2E;
+
+
+.color_notificacion_pendiente{
+color: $color_notificacion_pendiente;
+}
+
+.color_notificacion_espera{
+color: $color_notificacion_espera ;
+}
+
+.footer_container{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+    span{
+        padding: 1rem;
+    }
+}

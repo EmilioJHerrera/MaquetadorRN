@@ -1,0 +1,24 @@
+$bg_container: #F5F4F1;
+
+.informacion-container{
+    background-color: $bg_container;
+
+    section{
+        padding: 0.5rem 10rem;
+    }
+    
+}
+
+.barrafiltro-container{
+    border: 2px solid red;
+    
+}
+
+.intro-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-container{
+    width: 100%;
+}

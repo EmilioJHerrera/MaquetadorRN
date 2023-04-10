@@ -1,0 +1,26 @@
+$bordercolor_onActive:#83770E;
+
+.navBar-container{
+        display: flex;
+        justify-content: space-around;
+        
+}
+
+.active{
+    padding: 0.5rem;
+    border-bottom: 4px solid $bordercolor_onActive;
+    text-decoration: none;
+    
+}
+
+.noActive{
+    padding: 0.5rem;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+
+
+.menu_derecho{
+    display: flex;
+}

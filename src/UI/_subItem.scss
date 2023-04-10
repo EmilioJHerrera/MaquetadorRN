@@ -1,0 +1,22 @@
+$color_item: #A19279;
+
+.subitem_container{
+   
+    padding: 1rem 1rem;
+    border: 1px solid red;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: $bg;
+
+    span{
+        padding-left: 1rem;
+        color: $color_item;
+        text-transform: lowercase;
+        span{
+            font-size: 2rem;
+        }
+    }
+
+    
+}

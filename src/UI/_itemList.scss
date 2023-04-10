@@ -1,0 +1,36 @@
+$color_verPDF : #1677AB;
+$color_th: #A19279;
+$bg_tr: #F5F4F1;
+
+.mayus{
+    text-transform: uppercase;
+}
+
+td{
+    padding: 1rem;
+    
+}
+
+.link_verPDF{
+    color: $color_verPDF;
+}
+
+th{
+    color:$color_th;
+    text-transform: uppercase;
+    
+}
+
+.icon_rotate{
+    transform: rotate(90deg);
+}
+
+tr:nth-child(odd){
+    background-color: $bg_tr;
+    
+}
+
+tr:nth-child(even){
+    background-color: $bg;
+}
+
