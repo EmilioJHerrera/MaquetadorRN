@@ -1,5 +1,4 @@
-$bg_barraFiltros: #E7E6E3;
-$media_900: 900px;
+
 
 .barraFiltros{
     display: flex;
@@ -8,14 +7,12 @@ $media_900: 900px;
 
 
     @media(max-width: $media_900){
-       
-        
+ 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        
+  
     }
     
     
@@ -27,11 +24,7 @@ $media_900: 900px;
 
 
         @media(max-width: $media_900){
-       
-        
-            border: none;
-    
-            
+             border: none;  
         }
     }
 
@@ -77,4 +70,11 @@ $media_900: 900px;
         transform: translateY(-50%);
       }
 
+}
+
+
+.hideOn900{
+    @media(max-width: $media_900){
+        display: none;
+    }
 }

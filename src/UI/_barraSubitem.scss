@@ -1,15 +1,10 @@
-$color_export_link: #1677AB;
-
 
 .barraSubtiem_container{
-    display: flex;
-    
+    display: flex; 
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid brown;
-    
-    div{
-            
+        
+    div{     
         padding-left: 0.5rem;
         padding-right: 0.5rem;
     }
@@ -24,12 +19,10 @@ $color_export_link: #1677AB;
 }
 
 .export_link{
-    
     display: flex;
     color: $color_export_link;
     font-weight: bold;
     span{
-        
         text-align: left;
         text-decoration: underline;
     }

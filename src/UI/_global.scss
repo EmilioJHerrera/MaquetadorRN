@@ -1,4 +1,21 @@
+//---------------------VARIABLES GLOBALES---------------------------------//
+
 $bg: #fefefe;
+// valores asociados a barraFiltros.scss
+$bg_barraFiltros: #E7E6E3;
+$media_900: 900px;
+// valores asociados a barraSubitem.scss
+$color_export_link: #1677AB;
+// valores asociados a itemList.scss
+$color_verPDF : #1677AB;
+$color_th: #A19279;
+$bg_tr: #F5F4F1;
+// valores asociados a linkHeaderPagina.scss
+$color_link: #B0B4B3;
+// valores asociados a navbar_icons.scss
+$bg_logout:#848989;
+// valores asociados a navBar.scss
+$bordercolor_onActive:#83770E;
 
 *{
     margin: 0;
@@ -13,3 +30,4 @@ $bg: #fefefe;
 .container{
     padding: 2rem 10rem;
 }
+

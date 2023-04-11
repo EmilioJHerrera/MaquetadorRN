@@ -5,14 +5,19 @@ $bg_container: #F5F4F1;
 
     section{
         padding: 0.5rem 10rem;
+
+        @media(max-width: $media_900){
+       
+        
+            padding: 0.5rem 0.4rem;
+    
+            
+        }
     }
     
 }
 
-.barrafiltro-container{
-    border: 2px solid red;
-    
-}
+
 
 .intro-container{
     display: flex;
@@ -21,4 +26,8 @@ $bg_container: #F5F4F1;
 
 .table-container{
     width: 100%;
+    border-collapse:collapse;
+  
+    
+    
 }

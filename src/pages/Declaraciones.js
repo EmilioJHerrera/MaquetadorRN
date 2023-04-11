@@ -1,4 +1,5 @@
 import React from 'react'
+
 import BarraFiltros from '../components/BarraFiltros/BarraFiltros'
 import BarraSubitem from '../components/BarraSubitem/BarraSubitem'
 import HeaderPagina from '../components/HeaderPagina/headerPagina'
@@ -13,13 +14,14 @@ import Meses_config from '../components/Meses_config/Meses_config'
 
 const Declaraciones = () => {
   return (
-    <div>
+    <>
     <div className='container'>
       <section className='intro-container'>
         <div>
-        {HeaderPaginaData.map((item)=>{
+        {HeaderPaginaData.map((item,index)=>{
           return(
             <HeaderPagina 
+            key={index}
             titulo={item.titulo} 
             textoLN={item.textoLN}
             textoLN1={item.textoLN1}
@@ -38,7 +40,7 @@ const Declaraciones = () => {
    </div>
     
       <div className='informacion-container'>
-      <section className='barrafiltro-container'>
+      <section >
         <BarraFiltros/>
       </section>
       <div>
@@ -47,16 +49,17 @@ const Declaraciones = () => {
       <section>
         <table className='table-container'>
         <ItemListTableHead/>
-        {declaracionesData.map((item)=>{
-          // item = {referencia, tipo, cantidad, origen, fecha, oleoso}
+        {declaracionesData.map((item,index)=>{
+          const {referencia, tipo, cantidad, origen, fecha, oleoso} = item  
           return(
             <ItemListDeclaraciones 
-            referencia={item.referencia}
-            tipo={item.tipo}
-            cantidad={item.cantidad} 
-            origen={item.origen} 
-            fecha={item.fecha} 
-            oleoso={item.oleoso}
+            key={index}
+            referencia={referencia}
+            tipo={tipo}
+            cantidad={cantidad} 
+            origen={origen} 
+            fecha={fecha} 
+            oleoso={oleoso}
             
             />
           )
@@ -68,7 +71,7 @@ const Declaraciones = () => {
         <FooterPaginacion/>
         </section>
       </div>
-    </div>
+    </>
   
   )
 }

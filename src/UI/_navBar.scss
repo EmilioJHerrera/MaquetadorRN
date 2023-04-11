@@ -1,14 +1,21 @@
-$bordercolor_onActive:#83770E;
+
 
 .navBar-container{
         display: flex;
         justify-content: space-around;
+        padding-bottom: 4px;
+        
+        box-shadow: 1px 5px 9px -3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 5px 9px -3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 5px 9px -3px rgba(0,0,0,0.75);
         
 }
 
 .active{
     padding: 0.5rem;
+
     border-bottom: 4px solid $bordercolor_onActive;
+    
     text-decoration: none;
     
 }
@@ -23,4 +30,14 @@ $bordercolor_onActive:#83770E;
 
 .menu_derecho{
     display: flex;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: bold;
+    
+    justify-content: center;
+    align-items: center;
+
+    span{
+        padding-right: 0.5rem;
+    }
 }

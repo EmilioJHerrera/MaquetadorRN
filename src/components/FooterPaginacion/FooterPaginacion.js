@@ -2,8 +2,8 @@ import React from 'react'
 
 import { MdOutlineArrowForwardIos } from 'react-icons/md';
 import { MdArrowBackIos } from 'react-icons/md';
-import { MdNotificationsActive, MdUpdate } from 'react-icons/md';;
-
+import { MdNotificationsActive, MdUpdate } from 'react-icons/md';
+import FooterPaginador from '../FooterPaginador/FooterPaginador';
 
 
 const FooterPaginacion = () => {
@@ -21,7 +21,7 @@ const FooterPaginacion = () => {
                 <MdArrowBackIos/>
             </span>
             <span>
-                1 2 3 4 5 
+                <FooterPaginador/>
             </span>
             <span>
                 <MdOutlineArrowForwardIos />

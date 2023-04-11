@@ -1,5 +1,10 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
+import IndicidenciasIcon from '../Navbar_icons/IndicidenciasIcon';
+import PerfilIcon from '../Navbar_icons/PerfilIcon';
+import LogoutIcon from '../Navbar_icons/LogoutIcon';
+
+
 
 const NavBar = () => {
   const navData = [
@@ -26,10 +31,11 @@ const NavBar = () => {
 
         <div>
 
-            {navData.map((itemLink)=>{
+            {navData.map((itemLink,index)=>{
                 return(
 
             <NavLink
+                key={index}
                 to={itemLink.route}
                 className={({ isActive }) =>
                     isActive ? "active" : "noActive"
@@ -42,9 +48,9 @@ const NavBar = () => {
         </div>
 
         <div className='menu_derecho'>
-            <p>Incidencias</p>
-            <p>perfil</p>
-            <p>loguot</p>
+            <IndicidenciasIcon/>
+            <PerfilIcon/>
+            <LogoutIcon/>
         </div>
 
         
