@@ -2,6 +2,13 @@
 
 Realizado en React JS
 
+## Capturas de pantallas
+
+Pantallas superiores a 900px
+![Captura_full](https://user-images.githubusercontent.com/81720730/231529100-a95ecbda-e7c0-4043-95e9-093be34de06e.PNG)
+
+Pantallas inferiores a 900px
+![Captura850](https://user-images.githubusercontent.com/81720730/231529134-1a3f07e0-0d13-4d19-830c-43eaed0f0df0.PNG)
 
 ## Getting Started with Create React App
 
