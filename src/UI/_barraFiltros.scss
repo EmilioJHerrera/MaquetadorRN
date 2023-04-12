@@ -3,7 +3,7 @@
 .barraFiltros{
     display: flex;
     background-color: $bg_barraFiltros;
-    padding: 1rem;
+    
 
 
     @media(max-width: $media_900){
@@ -51,13 +51,18 @@
 
     .input-wrapper {
         position: relative;
-        width: 8rem;
+        width: 100%;
       }
 
       .input {
-        color: #191919;
+        // color: #191919;
         width: 100%;
-        padding: 0.5rem 1.5rem;
+        padding: 0.25rem 1.5rem;
+        border:none;
+        //Código de sombras
+        box-shadow: 1px 5px 9px -3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 5px 9px -3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 5px 9px -3px rgba(0,0,0,0.75);
     }
     
     .input-icon {

@@ -3,7 +3,7 @@
 .navBar-container{
         display: flex;
         justify-content: space-around;
-        padding-bottom: 4px;
+        padding: 4px 0;
         
         box-shadow: 1px 5px 9px -3px rgba(0,0,0,0.75);
         -webkit-box-shadow: 1px 5px 9px -3px rgba(0,0,0,0.75);
@@ -13,14 +13,14 @@
 
 .active{
     padding: 0.5rem;
-
+    font-weight: bold;
+    color: black;
     border-bottom: 4px solid $bordercolor_onActive;
-    
     text-decoration: none;
-    
 }
 
 .noActive{
+    color: black;
     padding: 0.5rem;
     border-bottom: none;
     text-decoration: none;
@@ -33,7 +33,6 @@
     text-transform: uppercase;
     font-size: 0.75rem;
     font-weight: bold;
-    
     justify-content: center;
     align-items: center;
 

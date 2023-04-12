@@ -19,3 +19,8 @@ color: $color_notificacion_espera ;
         padding: 1rem;
     }
 }
+
+.activo{
+    background-color: $bg;
+    border: 1px solid $color_link;
+}

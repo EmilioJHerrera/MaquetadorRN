@@ -8,7 +8,7 @@ const BarraFiltros = () => {
     <div className='barraFiltros'>
         <span className='hideOn900'>Filtrar</span>
         <span>
-            <input type="month" id="start" name="start"
+            <input type="month" id="start" name="start" className="input"
             min="2022-03" value="2022-08"/>
        </span>
         <span>

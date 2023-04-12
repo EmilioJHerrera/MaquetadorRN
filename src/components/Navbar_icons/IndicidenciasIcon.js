@@ -5,6 +5,11 @@ const IndicidenciasIcon = () => {
     <span>
         <MdNotificationsActive/>
         Indicidencias
+        <progress
+        max="100"
+        value="50" 
+        className='indicadorProgreso'></progress>
+        
         </span>
   )
 }

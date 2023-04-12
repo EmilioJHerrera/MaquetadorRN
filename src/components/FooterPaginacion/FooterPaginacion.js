@@ -4,13 +4,14 @@ import { MdOutlineArrowForwardIos } from 'react-icons/md';
 import { MdArrowBackIos } from 'react-icons/md';
 import { MdNotificationsActive, MdUpdate } from 'react-icons/md';
 import FooterPaginador from '../FooterPaginador/FooterPaginador';
+import declaracionesData from '../../Data/declaracionesData';
 
 
 const FooterPaginacion = () => {
   return (
     <section className='footer_container'>
         <div>
-            <p>Mostrando 1 a 10 de 46 declaraciones</p>
+            <p>Mostrando 1 a {declaracionesData.length} de 46 declaraciones</p>
         </div>
         <div>
             <span>
